@@ -1,0 +1,54 @@
+<head>
+	<title>Responsive</title>
+
+	<script src="./js/javascript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<form novalidate action="#" id="formulario">
+			<label for="Concepto">Concepto:</label>
+			<input type="text" id="Concepto" required>
+
+			<label for="Importe">Importe:</label>
+			<input type="number" id="Importe" required>
+
+
+
+			<label for="iva">Tipo IVA:</label>
+			<select id="iva">
+				<option value="21">21</option>
+				<option value="0">0</option>
+			</select>
+
+			
+			<label for="Cobrada">Cobrada:</label>
+			<input type="checkbox" id="cobrada" name="cobrada" value="true">
+
+			<input type="submit" value="Alta">
+			<button onclick="guardar()">Guardar Facturas</button>
+		</form>
+	</div>
+	
+		<div id="lista">
+			 
+		</div>
+
+
+</div>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+crossorigin="anonymous"
+></script>
+</body>
+</html>
